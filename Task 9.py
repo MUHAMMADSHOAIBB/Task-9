@@ -22,20 +22,19 @@ while True:
           print("Seconds",s)
           s =s+1
 print('=============================Task9.2===================================')
+
 car = "_|'''''''''|_\n"\
      "|______|"
 a =1
 while a<=10:
-    print(car.rjust(90))
-    run =1
-    while run <=10:
-        print(car.rjust(90))
-        run = run +1
-    a = a +1
-    d = 1
-    while d<=1:
-        print('car is movin downside')
-        d = d+1
+    print("Elixa moved", a, "steps down side\n")
+    a = a+1
+    b = 0
+    while b <= 10:
+        print("Elixa moved", b, "steps to right ---->\n")
+        b = b+1
+        if b == 10:
+            break
 print('===================task9.4================')
 while True:
   print('Welcome to  money exchanger office')
@@ -116,7 +115,85 @@ while True:
     else:
         print('sorry sir')
         print('Thank you for coming')
+print("=======================Task 9.3===============")
+m = ["january", "february", "march", "april", "may", "june",
+	 "july", "august", "september", "october", "november", "december"]
 
+for month in m:
+	print("\n============================================================")
+	if month == "january":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
+	elif month == "february":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 28:
+			print(d, end="   ")
+			d += 1
+
+	elif month == "march":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="  ")
+			d += 1
+	elif month == "april":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 30:
+			print(d, end="   ")
+			d += 1
+	elif month == "may":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
+	elif month == "june":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 30:
+			print(d, end="   ")
+			d += 1
+	elif month == "july":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
+	elif month == "august":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
+	elif month == "september":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 30:
+			print(d, end="   ")
+			d += 1
+	elif month == "october":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
+	elif month == "november":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 30:
+			print(d, end="   ")
+			d += 1
+	elif month == "december":
+		print("\n", month.center(50), "\n")
+		d = 1
+		while d <= 31:
+			print(d, end="   ")
+			d += 1
 
 
 
